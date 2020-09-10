@@ -2,11 +2,15 @@ def using_concat(array, array2)
   array.concat(array2)
 end 
 
-def using_insert(array, element)
+def using_insert(array, array2, element)
+  array = ""
+  
   @another_language = "Python"
     @new_array = using_insert(@list_of_programming_languages, @another_language)
     
     expect(@new_array[4]).to eq(@another_language)
+    
+    expect(@new_array.length).to eq(8)
 end 
 
 def using_uniq(array)
