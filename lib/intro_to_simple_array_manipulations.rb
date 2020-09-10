@@ -3,7 +3,11 @@ def using_concat(array, array2)
 end 
 
 def using_insert(array, array2, element)
-  array = ""
+  array = ["pokemon", "starwars", "spartans"]
+  movie_titles = "Farcry"
+  array2 = using_insert(array, movie_titles)
+  
+  array2.index[4](movie_titles)
   
   @another_language = "Python"
     @new_array = using_insert(@list_of_programming_languages, @another_language)
