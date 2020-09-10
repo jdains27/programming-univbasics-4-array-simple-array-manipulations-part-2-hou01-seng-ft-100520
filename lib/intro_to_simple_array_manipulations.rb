@@ -3,9 +3,9 @@ def using_concat(array, array2)
 end 
 
 def using_insert(array, element)
-  element = ["a", "b", "c", "d"]
-  array.index(4)
-  array.insert(element)
+  array = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
+  element = "Malbolge"
+  new_array = array.insert(4, element)
 end 
 
 def using_uniq(array)
