@@ -5,6 +5,8 @@ end
 def using_insert(array, element)
   @another_language = "Python"
     @new_array = using_insert(@list_of_programming_languages, @another_language)
+    
+    expect(@new_array[4]).to eq(@another_language)
 end 
 
 def using_uniq(array)
