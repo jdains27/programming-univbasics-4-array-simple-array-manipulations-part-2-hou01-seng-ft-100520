@@ -3,7 +3,8 @@ def using_concat(array, array2)
 end 
 
 def using_insert(array, element)
-  array.index(4)
+  @another_language = "Python"
+    @new_array = using_insert(@list_of_programming_languages, @another_language)
 end 
 
 def using_uniq(array)
