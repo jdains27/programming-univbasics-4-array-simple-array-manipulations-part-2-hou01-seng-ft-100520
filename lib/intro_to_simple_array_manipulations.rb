@@ -6,7 +6,7 @@ def using_insert(array, array2, movie_titles)
   array = ["pokemon", "starwars", "spartans", "300"]
   movie_titles = "Farcry"
   array2 = using_insert(array, movie_titles)
-  array2.index[4](movie_titles)
+  #array2.index[4](movie_titles)
 end 
 
 def using_uniq(array)
