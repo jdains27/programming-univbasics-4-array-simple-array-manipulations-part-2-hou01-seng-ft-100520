@@ -1,7 +1,7 @@
 def using_concat
 end 
 
-def 
+def using_insert
 end 
 
 def 
