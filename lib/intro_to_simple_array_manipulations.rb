@@ -3,7 +3,7 @@ def using_concat(array, array2)
 end 
 
 def using_insert(array, array2, movie_titles)
-  array = ["pokemon", "starwars", "spartans", "300"]
+  #array = ["pokemon", "starwars", "spartans", "300"]
   movie_titles = "Farcry"
   array2 = using_insert(array, movie_titles)
   #array2.index[4](movie_titles)
